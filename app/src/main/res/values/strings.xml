@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UsersData</string>
+
+    <string name="gender">Gender: %1$s</string>
+    <string name="email">Email: %1$s</string>
+    <string name="dob">DOB: %1$s</string>
+    <string name="phone">Phone: %1$s</string>
+    <string name="cell">Cell: %1$s</string>
+    <string name="username">%1$s %2$s %3$s</string>
+</resources>

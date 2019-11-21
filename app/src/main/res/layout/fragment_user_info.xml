@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.UserInfoFragment"
+    app:cardCornerRadius="35dp">
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="10dp"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="NAME HERE"
+        android:id="@+id/user_name"
+        app:layout_constraintTop_toBottomOf="@id/user_image"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="@string/username"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="GENDER"
+        android:id="@+id/user_gender"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/user_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/gender"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="EMAIL"
+        android:id="@+id/user_email"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/user_gender"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/email"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="DOB"
+        android:id="@+id/user_dob"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/user_email"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/dob"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="PHONE"
+        android:id="@+id/user_phone"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/user_dob"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/phone"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="CELL"
+        android:id="@+id/user_cell"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/user_phone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/cell"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
